@@ -1,0 +1,131 @@
+[ {
+  "uid" : "481d4e8d5e4b4c02",
+  "name" : "Navigate to flipkart homepage",
+  "time" : {
+    "start" : 1711352104475,
+    "stop" : 1711352198686,
+    "duration" : 94211
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "26b6f485833ef866",
+  "name" : "Validate list of Existing products in flipkart",
+  "time" : {
+    "start" : 1711531375834,
+    "stop" : 1711531389646,
+    "duration" : 13812
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8b78c1c4c6737b3c",
+  "name" : "Validate Holidays List in tHRM Application",
+  "time" : {
+    "start" : 1718968103335,
+    "stop" : 1718968205009,
+    "duration" : 101674
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9b140199728e6892",
+  "name" : "Navigate to flipkart homepage",
+  "time" : {
+    "start" : 1711446910797,
+    "stop" : 1711447093185,
+    "duration" : 182388
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "bdc79e0863e0966c",
+  "name" : "tearDownClass",
+  "time" : {
+    "start" : 1711349289144,
+    "stop" : 1711349289145,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "34007bf5b8b80189",
+  "name" : "Runs Cucumber Feature",
+  "time" : {
+    "start" : 1718968101236,
+    "stop" : 1718968209166,
+    "duration" : 107930
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a1e17dfb2f379490",
+  "name" : "Runs Cucumber Feature",
+  "time" : {
+    "start" : 1712303526662,
+    "stop" : 1712303570271,
+    "duration" : 43609
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a10b446af4c692ef",
+  "name" : "Runs Cucumber Feature",
+  "time" : {
+    "start" : 1711531375204,
+    "stop" : 1711531390485,
+    "duration" : 15281
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "157d6be337c59b51",
+  "name" : "setUpClass",
+  "time" : {
+    "start" : 1711349289078,
+    "stop" : 1711349289079,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "94395c33b6caac22",
+  "name" : "User Register new Merchant and Validate in Home tab",
+  "time" : {
+    "start" : 1711956357129,
+    "stop" : 1711956391949,
+    "duration" : 34820
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "810d1b391543e47d",
+  "name" : "Verify Login functionality of MFS",
+  "time" : {
+    "start" : 1711539147248,
+    "stop" : 1711539147272,
+    "duration" : 24
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "ef0f55236e634c7d",
+  "name" : "Runs Cucumber Feature",
+  "time" : {
+    "start" : 1711349289136,
+    "stop" : 1711349289138,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "10a59822a90b3d14",
+  "name" : "User creates new rule and Validate in Rule list",
+  "time" : {
+    "start" : 1712303527225,
+    "stop" : 1712303570004,
+    "duration" : 42779
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

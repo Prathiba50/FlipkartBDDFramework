@@ -1,0 +1,94 @@
+{
+  "uid" : "810d1b391543e47d",
+  "name" : "Verify Login functionality of MFS",
+  "historyId" : "31301f566e90b2e2e65d07a81e5fb643",
+  "time" : {
+    "start" : 1711539147248,
+    "stop" : 1711539147272,
+    "duration" : 24
+  },
+  "status" : "unknown",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "unknown",
+    "steps" : [ {
+      "name" : "Given  User login to application: \"Asha\"",
+      "time" : {
+        "start" : 1711539147261,
+        "stop" : 1711539147267,
+        "duration" : 6
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "When  User Validate application by Entering country Father or Mother: \"India\" and \"Radha\" and \"NarasimhaReddy\"",
+      "time" : {
+        "start" : 1711539147270,
+        "stop" : 1711539147271,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Isha Traings(MFS)"
+  }, {
+    "name" : "story",
+    "value" : "Verify Login functionality of MFS"
+  }, {
+    "name" : "tag",
+    "value" : "Smoke46747353"
+  }, {
+    "name" : "host",
+    "value" : "STIPL-SMBL0267"
+  }, {
+    "name" : "package",
+    "value" : "Isha Traings(MFS)"
+  }, {
+    "name" : "suite",
+    "value" : "Isha Traings(MFS)"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify Login functionality of MFS"
+  }, {
+    "name" : "thread",
+    "value" : "26828@STIPL-SMBL0267.TestNG-test=Test-1(14)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "Smoke46747353" ]
+  },
+  "source" : "810d1b391543e47d.json",
+  "parameterValues" : [ ]
+}

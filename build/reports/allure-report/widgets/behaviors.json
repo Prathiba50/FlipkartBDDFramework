@@ -1,0 +1,37 @@
+{
+  "total" : 9,
+  "items" : [ {
+    "uid" : "25b96dbf056990a31dcebf790dc6e60c",
+    "name" : "Isha Traings(MFS)",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 1,
+      "total" : 3
+    }
+  }, {
+    "uid" : "d3f4e600114c06968c8f7e7a75eed6b6",
+    "name" : "FlipKart_HomePage1",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "5c384f5ca685e2f01a32fa0b67b5713c",
+    "name" : "FlipKart_HomePage",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

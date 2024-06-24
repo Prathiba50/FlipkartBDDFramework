@@ -1,0 +1,132 @@
+{
+  "uid" : "8b78c1c4c6737b3c",
+  "name" : "Validate Holidays List in tHRM Application",
+  "historyId" : "d078d80af23b0b186970f45c9ae5c19c",
+  "time" : {
+    "start" : 1718968103335,
+    "stop" : 1718968205009,
+    "duration" : 101674
+  },
+  "status" : "failed",
+  "statusMessage" : "Application is down or username is not displayed expected [false] but found [true]",
+  "statusTrace" : "java.lang.AssertionError: Application is down or username is not displayed expected [false] but found [true]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertFalse(Assert.java:65)\r\n\tat appmanager.ApplicationManager.initUrlHRM(ApplicationManager.java:219)\r\n\tat appmanager.HelperBase.checkLogInUserHRM(HelperBase.java:110)\r\n\tat tests.Hrm.user_launches_the_HRM_application_with(Hrm.java:17)\r\n\tat ✽.Given User launches the HRM application with: \"prathibhak\"(features/Hrm.feature:17)\r\n",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Application is down or username is not displayed expected [false] but found [true]",
+    "statusTrace" : "java.lang.AssertionError: Application is down or username is not displayed expected [false] but found [true]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertFalse(Assert.java:65)\r\n\tat appmanager.ApplicationManager.initUrlHRM(ApplicationManager.java:219)\r\n\tat appmanager.HelperBase.checkLogInUserHRM(HelperBase.java:110)\r\n\tat tests.Hrm.user_launches_the_HRM_application_with(Hrm.java:17)\r\n\tat ✽.Given User launches the HRM application with: \"prathibhak\"(features/Hrm.feature:17)\r\n",
+    "steps" : [ {
+      "name" : "TestRunner.startScenario(Scenario)",
+      "time" : {
+        "start" : 1718968103352,
+        "stop" : 1718968103355,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Given  User launches the HRM application with: \"prathibhak\"",
+      "time" : {
+        "start" : 1718968103361,
+        "stop" : 1718968198350,
+        "duration" : 94989
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "When  User fill required details in request WFH",
+      "time" : {
+        "start" : 1718968201825,
+        "stop" : 1718968201826,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "TestRunner.endScenario(Scenario)",
+      "time" : {
+        "start" : 1718968204999,
+        "stop" : 1718968204999,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "FlipKart_HomePage"
+  }, {
+    "name" : "story",
+    "value" : "Validate Holidays List in tHRM Application"
+  }, {
+    "name" : "tag",
+    "value" : "Smoke46747353"
+  }, {
+    "name" : "host",
+    "value" : "STIPL-SMBL0267"
+  }, {
+    "name" : "package",
+    "value" : "FlipKart_HomePage"
+  }, {
+    "name" : "suite",
+    "value" : "FlipKart_HomePage"
+  }, {
+    "name" : "testClass",
+    "value" : "Validate Holidays List in tHRM Application"
+  }, {
+    "name" : "thread",
+    "value" : "27904@STIPL-SMBL0267.TestNG-test=Test-1(14)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "Smoke46747353" ]
+  },
+  "source" : "8b78c1c4c6737b3c.json",
+  "parameterValues" : [ ]
+}

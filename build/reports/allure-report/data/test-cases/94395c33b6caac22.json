@@ -1,0 +1,177 @@
+{
+  "uid" : "94395c33b6caac22",
+  "name" : "User Register new Merchant and Validate in Home tab",
+  "historyId" : "13765710ee45192817cdeaf387c1f824",
+  "time" : {
+    "start" : 1711956357129,
+    "stop" : 1711956391949,
+    "duration" : 34820
+  },
+  "status" : "failed",
+  "statusMessage" : "Unable to Click on Element- Validate",
+  "statusTrace" : "java.lang.AssertionError: Unable to Click on Element- Validate\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat appmanager.ExtentCucumberFormatter.testStepFailed(ExtentCucumberFormatter.java:260)\r\n\tat appmanager.HelperBase.clickOn(HelperBase.java:336)\r\n\tat pages.MFSPage.validateAllQuestions(MFSPage.java:78)\r\n\tat tests.MFS.user_Validate_application_by_Entering_country_Father_or_Mother_and_and(MFS.java:22)\r\n\tat ✽.When User Validate application by Entering country Father or Mother: \"India\" and \"Radha\" and \"NarasimhaReddy\"(features/MFS.feature:15)\r\n",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Unable to Click on Element- Validate",
+    "statusTrace" : "java.lang.AssertionError: Unable to Click on Element- Validate\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat appmanager.ExtentCucumberFormatter.testStepFailed(ExtentCucumberFormatter.java:260)\r\n\tat appmanager.HelperBase.clickOn(HelperBase.java:336)\r\n\tat pages.MFSPage.validateAllQuestions(MFSPage.java:78)\r\n\tat tests.MFS.user_Validate_application_by_Entering_country_Father_or_Mother_and_and(MFS.java:22)\r\n\tat ✽.When User Validate application by Entering country Father or Mother: \"India\" and \"Radha\" and \"NarasimhaReddy\"(features/MFS.feature:15)\r\n",
+    "steps" : [ {
+      "name" : "TestRunner.startScenario(Scenario)",
+      "time" : {
+        "start" : 1711956357140,
+        "stop" : 1711956357141,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Given  User login to application: \"Asha\"",
+      "time" : {
+        "start" : 1711956357145,
+        "stop" : 1711956375842,
+        "duration" : 18697
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "When  User Validate application by Entering country Father or Mother: \"India\" and \"Radha\" and \"NarasimhaReddy\"",
+      "time" : {
+        "start" : 1711956375844,
+        "stop" : 1711956391274,
+        "duration" : 15430
+      },
+      "status" : "failed",
+      "steps" : [ {
+        "name" : "LOG ERROR:Unable to Click on Element- Validate",
+        "time" : {
+          "start" : 1711956391269,
+          "stop" : 1711956391269,
+          "duration" : 0
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "When  User enters all required details and save: \"MerchantA\" and \"IT Solutions\" and \"Merchant1@gmail.com\" and \"9846537987\" and \"ICIC394379\" and \"Bengaluru-East\" and \"ENGLISH\" and \"VERSION 1.0\" and \"Test Bank\"",
+      "time" : {
+        "start" : 1711956391285,
+        "stop" : 1711956391285,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Then  user selects status and click save: \"REGISTERED\"",
+      "time" : {
+        "start" : 1711956391285,
+        "stop" : 1711956391285,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "TestRunner.endScenario(Scenario)",
+      "time" : {
+        "start" : 1711956391949,
+        "stop" : 1711956391949,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 7,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Isha Traings(MFS)"
+  }, {
+    "name" : "story",
+    "value" : "User Register new Merchant and Validate in Home tab"
+  }, {
+    "name" : "tag",
+    "value" : "Smoke46747353"
+  }, {
+    "name" : "host",
+    "value" : "STIPL-SMBL0267"
+  }, {
+    "name" : "package",
+    "value" : "Isha Traings(MFS)"
+  }, {
+    "name" : "suite",
+    "value" : "Isha Traings(MFS)"
+  }, {
+    "name" : "testClass",
+    "value" : "User Register new Merchant and Validate in Home tab"
+  }, {
+    "name" : "thread",
+    "value" : "5612@STIPL-SMBL0267.TestNG-test=Test-1(17)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "Smoke46747353" ]
+  },
+  "source" : "94395c33b6caac22.json",
+  "parameterValues" : [ ]
+}

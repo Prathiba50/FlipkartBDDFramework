@@ -1,0 +1,141 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "cucumber.runtime.CucumberException: Glue class class tests.FlipHome and class tests.Hrm both attempt to configure the spring context. Please ensure only one glue class configures the spring context",
+      "children" : [ {
+        "name" : "setUpClass",
+        "uid" : "157d6be337c59b51",
+        "parentUid" : "c25e570a2b97a98d8bb171c2928ed8d5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711349289078,
+          "stop" : 1711349289079,
+          "duration" : 1
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c25e570a2b97a98d8bb171c2928ed8d5"
+    }, {
+      "name" : "java.lang.NullPointerException",
+      "children" : [ {
+        "name" : "tearDownClass",
+        "uid" : "bdc79e0863e0966c",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711349289144,
+          "stop" : 1711349289145,
+          "duration" : 1
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5592898b36d684905e31486a23088bda"
+    }, {
+      "name" : "java.lang.AssertionError: createRule",
+      "children" : [ {
+        "name" : "Runs Cucumber Feature",
+        "uid" : "a1e17dfb2f379490",
+        "parentUid" : "44f7f68f47bf8438deadab6ae9d750e3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1712303526662,
+          "stop" : 1712303570271,
+          "duration" : 43609
+        },
+        "flaky" : true,
+        "parameters" : [ "Isha Traings(MFS)" ]
+      } ],
+      "uid" : "44f7f68f47bf8438deadab6ae9d750e3"
+    }, {
+      "name" : "java.lang.AssertionError: Application is down or username is not displayed expected [false] but found [true]",
+      "children" : [ {
+        "name" : "Runs Cucumber Feature",
+        "uid" : "34007bf5b8b80189",
+        "parentUid" : "1dca051a5531e69c482bab107445436d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718968101236,
+          "stop" : 1718968209166,
+          "duration" : 107930
+        },
+        "flaky" : true,
+        "parameters" : [ "FlipKart_HomePage" ]
+      } ],
+      "uid" : "1dca051a5531e69c482bab107445436d"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "fetchAllProductsAndPrices",
+      "children" : [ {
+        "name" : "Navigate to flipkart homepage",
+        "uid" : "9b140199728e6892",
+        "parentUid" : "8d3526a41ca2fe5a2d8aec8bd4820dc5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1711446910797,
+          "stop" : 1711447093185,
+          "duration" : 182388
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8d3526a41ca2fe5a2d8aec8bd4820dc5"
+    }, {
+      "name" : "Unable to Click on Element- Validate",
+      "children" : [ {
+        "name" : "User Register new Merchant and Validate in Home tab",
+        "uid" : "94395c33b6caac22",
+        "parentUid" : "5192ddcba83af9ef1d096ddb1c85af8e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1711956357129,
+          "stop" : 1711956391949,
+          "duration" : 34820
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5192ddcba83af9ef1d096ddb1c85af8e"
+    }, {
+      "name" : "createRule",
+      "children" : [ {
+        "name" : "User creates new rule and Validate in Rule list",
+        "uid" : "10a59822a90b3d14",
+        "parentUid" : "5f0a154978c4c418e8e6e774b6d45e61",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712303527225,
+          "stop" : 1712303570004,
+          "duration" : 42779
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5f0a154978c4c418e8e6e774b6d45e61"
+    }, {
+      "name" : "Application is down or username is not displayed expected [false] but found [true]",
+      "children" : [ {
+        "name" : "Validate Holidays List in tHRM Application",
+        "uid" : "8b78c1c4c6737b3c",
+        "parentUid" : "74ebc1f96a5ee2dfa8583bff429ce78e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1718968103335,
+          "stop" : 1718968205009,
+          "duration" : 101674
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "74ebc1f96a5ee2dfa8583bff429ce78e"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

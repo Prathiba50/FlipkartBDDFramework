@@ -1,0 +1,34 @@
+[ {
+  "values" : [ "edge" ],
+  "name" : "browser.type"
+}, {
+  "values" : [ "" ],
+  "name" : "send.emailAddress"
+}, {
+  "values" : [ "cWF0ZXN0c3FlZjAx" ],
+  "name" : "sqetst01"
+}, {
+  "values" : [ "Reports" ],
+  "name" : "ResultPath"
+}, {
+  "values" : [ "No" ],
+  "name" : "send.email"
+}, {
+  "values" : [ "@Smoke1" ],
+  "name" : "tagsForVideoCapture"
+}, {
+  "values" : [ "" ],
+  "name" : "selenium.server"
+}, {
+  "values" : [ "IamHappy@123" ],
+  "name" : "prathibhak"
+}, {
+  "values" : [ "FlipKart" ],
+  "name" : "application.shortName"
+}, {
+  "values" : [ "prathisuri@12345" ],
+  "name" : "Asha1"
+}, {
+  "values" : [ "http://hrm.sti.com/symfony/web/index.php/auth/login" ],
+  "name" : "web.Url"
+} ]

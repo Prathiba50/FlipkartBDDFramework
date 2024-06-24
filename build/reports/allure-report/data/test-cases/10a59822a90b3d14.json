@@ -1,0 +1,444 @@
+{
+  "uid" : "10a59822a90b3d14",
+  "name" : "User creates new rule and Validate in Rule list",
+  "historyId" : "d3ce3f07217585218761cb78cfd72038",
+  "time" : {
+    "start" : 1712303527225,
+    "stop" : 1712303570004,
+    "duration" : 42779
+  },
+  "status" : "failed",
+  "statusMessage" : "createRule",
+  "statusTrace" : "java.lang.AssertionError: createRule\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat appmanager.ExtentCucumberFormatter.testStepException(ExtentCucumberFormatter.java:297)\r\n\tat pages.MFSPage.createRule(MFSPage.java:195)\r\n\tat tests.MFS.userenters_all_required_details_to_create_new_rule_and_and_and_and_and_and_and_and_and_and(MFS.java:41)\r\n\tat ✽.Then Userenters all required details to  create new rule: \"Rule Automation\" and \"knowledge on Automation\" and \"SERVICE\" and \"BANK CASH IN\" and \"INITIATOR\" and \"BALANCE\" and \"Less Than\" and \"3000\" and \"TRANSACTION_FLAG *\" and \"TRUE\" and \"Regular interval\"(features/MFS.feature:30)\r\n",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "createRule",
+    "statusTrace" : "java.lang.AssertionError: createRule\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat appmanager.ExtentCucumberFormatter.testStepException(ExtentCucumberFormatter.java:297)\r\n\tat pages.MFSPage.createRule(MFSPage.java:195)\r\n\tat tests.MFS.userenters_all_required_details_to_create_new_rule_and_and_and_and_and_and_and_and_and_and(MFS.java:41)\r\n\tat ✽.Then Userenters all required details to  create new rule: \"Rule Automation\" and \"knowledge on Automation\" and \"SERVICE\" and \"BANK CASH IN\" and \"INITIATOR\" and \"BALANCE\" and \"Less Than\" and \"3000\" and \"TRANSACTION_FLAG *\" and \"TRUE\" and \"Regular interval\"(features/MFS.feature:30)\r\n",
+    "steps" : [ {
+      "name" : "TestRunner.startScenario(Scenario)",
+      "time" : {
+        "start" : 1712303527235,
+        "stop" : 1712303527235,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Given  User login to application: \"Asha1\"",
+      "time" : {
+        "start" : 1712303527237,
+        "stop" : 1712303540981,
+        "duration" : 13744
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "When  User Validate application by Entering country Father or Mother: \"India\" and \"Radha\" and \"NarasimhaReddy\"",
+      "time" : {
+        "start" : 1712303540983,
+        "stop" : 1712303546601,
+        "duration" : 5618
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "LOG INFO : Entered the value in the  :Enter country field :India",
+        "time" : {
+          "start" : 1712303543246,
+          "stop" : 1712303543246,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "LOG INFO : Clicked on Element-Validate",
+        "time" : {
+          "start" : 1712303544308,
+          "stop" : 1712303544308,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Manual verification point",
+        "time" : {
+          "start" : 1712303546598,
+          "stop" : 1712303546601,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "3de8c53c349e47b5",
+          "name" : "SCREENSHOT",
+          "source" : "3de8c53c349e47b5.png",
+          "type" : "image/png",
+          "size" : 38999
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "LOG INFO : Passed : Security validation is done successfully",
+        "time" : {
+          "start" : 1712303546601,
+          "stop" : 1712303546601,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 4,
+      "hasContent" : true
+    }, {
+      "name" : "Then  Userenters all required details to  create new rule: \"Rule Automation\" and \"knowledge on Automation\" and \"SERVICE\" and \"BANK CASH IN\" and \"INITIATOR\" and \"BALANCE\" and \"Less Than\" and \"3000\" and \"TRANSACTION_FLAG *\" and \"TRUE\" and \"Regular interval\"",
+      "time" : {
+        "start" : 1712303546601,
+        "stop" : 1712303565996,
+        "duration" : 19395
+      },
+      "status" : "failed",
+      "steps" : [ {
+        "name" : "LOG INFO : Clicked on Element-Rules",
+        "time" : {
+          "start" : 1712303547684,
+          "stop" : 1712303547684,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "LOG INFO : Clicked on Element-Create New Rule",
+        "time" : {
+          "start" : 1712303548758,
+          "stop" : 1712303548758,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "LOG INFO : Entered the value in the  :Rule Name field :Rule Automation",
+        "time" : {
+          "start" : 1712303553537,
+          "stop" : 1712303553537,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "LOG INFO : Entered the value in the  :Rule Description field :knowledge on Automation",
+        "time" : {
+          "start" : 1712303555776,
+          "stop" : 1712303555776,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "LOG INFO : Clicked on Element-Apply this rule for",
+        "time" : {
+          "start" : 1712303556857,
+          "stop" : 1712303556857,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "LOG INFO : Selected the value->BANK CASH IN from the dropdown PEER TO PEER",
+        "time" : {
+          "start" : 1712303556943,
+          "stop" : 1712303556943,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "LOG INFO : Clicked on Element-Choose party attribute as RECEIVER",
+        "time" : {
+          "start" : 1712303558008,
+          "stop" : 1712303558009,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "LOG INFO : Clicked on Element-Balance",
+        "time" : {
+          "start" : 1712303559066,
+          "stop" : 1712303559066,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "LOG INFO : Selected the value->Less Than from the dropdown Less Than",
+        "time" : {
+          "start" : 1712303559153,
+          "stop" : 1712303559153,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "LOG INFO : Entered the value in the  :input Balance field :3000",
+        "time" : {
+          "start" : 1712303561385,
+          "stop" : 1712303561385,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "LOG INFO : Selected the value->TRUE from the dropdown Select Transaction Flag",
+        "time" : {
+          "start" : 1712303561484,
+          "stop" : 1712303561484,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "LOG INFO : Entered the value in the  :From Date field :05-04-2024",
+        "time" : {
+          "start" : 1712303563700,
+          "stop" : 1712303563700,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "LOG ERROR:createRulejava.lang.NumberFormatException: For input string: \"05-04-2024\"",
+        "time" : {
+          "start" : 1712303565993,
+          "stop" : 1712303565993,
+          "duration" : 0
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Manual verification point",
+        "time" : {
+          "start" : 1712303565993,
+          "stop" : 1712303565994,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "9fcf8a219a7c74bf",
+          "name" : "SCREENSHOT",
+          "source" : "9fcf8a219a7c74bf.png",
+          "type" : "image/png",
+          "size" : 134675
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 14,
+      "hasContent" : true
+    }, {
+      "name" : "Then  User Verify success message:\"Success\"",
+      "time" : {
+        "start" : 1712303568173,
+        "stop" : 1712303568174,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "TestRunner.endScenario(Scenario)",
+      "time" : {
+        "start" : 1712303570003,
+        "stop" : 1712303570003,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 24,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Isha Traings(MFS)"
+  }, {
+    "name" : "story",
+    "value" : "User creates new rule and Validate in Rule list"
+  }, {
+    "name" : "tag",
+    "value" : "Smoke46747353"
+  }, {
+    "name" : "host",
+    "value" : "STIPL-SMBL0267"
+  }, {
+    "name" : "package",
+    "value" : "Isha Traings(MFS)"
+  }, {
+    "name" : "suite",
+    "value" : "Isha Traings(MFS)"
+  }, {
+    "name" : "testClass",
+    "value" : "User creates new rule and Validate in Rule list"
+  }, {
+    "name" : "thread",
+    "value" : "24256@STIPL-SMBL0267.TestNG-test=Test-1(14)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "Smoke46747353" ]
+  },
+  "source" : "10a59822a90b3d14.json",
+  "parameterValues" : [ ]
+}

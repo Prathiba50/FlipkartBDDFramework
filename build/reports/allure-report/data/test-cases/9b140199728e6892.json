@@ -1,0 +1,303 @@
+{
+  "uid" : "9b140199728e6892",
+  "name" : "Navigate to flipkart homepage",
+  "historyId" : "270cb7eecdfc9d99bd15d0793a3e23ad",
+  "time" : {
+    "start" : 1711446910797,
+    "stop" : 1711447093185,
+    "duration" : 182388
+  },
+  "status" : "failed",
+  "statusMessage" : "fetchAllProductsAndPrices",
+  "statusTrace" : "java.lang.AssertionError: fetchAllProductsAndPrices\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat appmanager.ExtentCucumberFormatter.testStepException(ExtentCucumberFormatter.java:297)\r\n\tat pages.FlipHomePage.fetchAllProductsAndPrices(FlipHomePage.java:93)\r\n\tat tests.FlipHome.user_fetch_all_serched_products_and_its_price(FlipHome.java:34)\r\n\tat ✽.And User fetch all searched products and its price(features/FlipHome.feature:9)\r\n",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "fetchAllProductsAndPrices",
+    "statusTrace" : "java.lang.AssertionError: fetchAllProductsAndPrices\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat appmanager.ExtentCucumberFormatter.testStepException(ExtentCucumberFormatter.java:297)\r\n\tat pages.FlipHomePage.fetchAllProductsAndPrices(FlipHomePage.java:93)\r\n\tat tests.FlipHome.user_fetch_all_serched_products_and_its_price(FlipHome.java:34)\r\n\tat ✽.And User fetch all searched products and its price(features/FlipHome.feature:9)\r\n",
+    "steps" : [ {
+      "name" : "TestRunner.startScenario(Scenario)",
+      "time" : {
+        "start" : 1711446910803,
+        "stop" : 1711446910803,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Given  User launches the Flipkart application",
+      "time" : {
+        "start" : 1711446910805,
+        "stop" : 1711446922119,
+        "duration" : 11314
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "When  User Verify the loading time of the home page",
+      "time" : {
+        "start" : 1711446922121,
+        "stop" : 1711446922153,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "LOG INFO : Page loaded is-> 3149 milliseconds",
+        "time" : {
+          "start" : 1711446922153,
+          "stop" : 1711446922153,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Then  User searches for the record:\"iphone\"",
+      "time" : {
+        "start" : 1711446922154,
+        "stop" : 1711446976801,
+        "duration" : 54647
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "LOG INFO : Clicked on Element-Search Item",
+        "time" : {
+          "start" : 1711446949452,
+          "stop" : 1711446949452,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "LOG INFO : Entered the value in the  :Iphone field :iphone",
+        "time" : {
+          "start" : 1711446956288,
+          "stop" : 1711446956288,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "LOG INFO : Clicked on Element-Click first product fro the list",
+        "time" : {
+          "start" : 1711446963021,
+          "stop" : 1711446963021,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "LOG INFO : Total showing results are: Showing 1 – 24 of 477 results for \"iphone 15\"",
+        "time" : {
+          "start" : 1711446973385,
+          "stop" : 1711446973385,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 4,
+      "hasContent" : true
+    }, {
+      "name" : "And  User fetch all searched products and its price",
+      "time" : {
+        "start" : 1711446976802,
+        "stop" : 1711447081487,
+        "duration" : 104685
+      },
+      "status" : "failed",
+      "steps" : [ {
+        "name" : "LOG INFO : Clicked on Element-Next",
+        "time" : {
+          "start" : 1711446995513,
+          "stop" : 1711446995514,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "LOG INFO : Clicked on Element-Next",
+        "time" : {
+          "start" : 1711446997408,
+          "stop" : 1711446997408,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "LOG ERROR:fetchAllProductsAndPricesorg.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found\n  (Session info: MicrosoftEdge=122.0.2365.92)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'\nSystem info: host: 'STIPL-SMBL0267', ip: '172.18.26.26', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCapabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 122.0.2365.92, fedcm:accounts: true, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:55355}, msedge: {msedgedriverVersion: 122.0.2365.106 (a5761ec7165..., userDataDir: C:\\Users\\PRATHI~1\\AppData\\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 18c42be9a0c4b058cb7f187ae25b5279",
+        "time" : {
+          "start" : 1711447081439,
+          "stop" : 1711447081439,
+          "duration" : 0
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Manual verification point",
+        "time" : {
+          "start" : 1711447081454,
+          "stop" : 1711447081484,
+          "duration" : 30
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "336e3a85c9e07beb",
+          "name" : "SCREENSHOT",
+          "source" : "336e3a85c9e07beb.png",
+          "type" : "image/png",
+          "size" : 2293337
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 4,
+      "hasContent" : true
+    }, {
+      "name" : "TestRunner.endScenario(Scenario)",
+      "time" : {
+        "start" : 1711447093185,
+        "stop" : 1711447093185,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 15,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "FlipKart_HomePage1"
+  }, {
+    "name" : "story",
+    "value" : "Navigate to flipkart homepage"
+  }, {
+    "name" : "tag",
+    "value" : "Smoke46747353"
+  }, {
+    "name" : "host",
+    "value" : "STIPL-SMBL0267"
+  }, {
+    "name" : "package",
+    "value" : "FlipKart_HomePage1"
+  }, {
+    "name" : "suite",
+    "value" : "FlipKart_HomePage1"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigate to flipkart homepage"
+  }, {
+    "name" : "thread",
+    "value" : "23348@STIPL-SMBL0267.TestNG-test=Test-1(17)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "Smoke46747353" ]
+  },
+  "source" : "9b140199728e6892.json",
+  "parameterValues" : [ ]
+}

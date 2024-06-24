@@ -1,0 +1,8 @@
+"Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
+"","FlipKart_HomePage1","Navigate to flipkart homepage","1","0","1","0","0"
+"","FlipKart_HomePage1","Validate list of Existing products in flipkart","0","0","1","0","0"
+"","FlipKart_HomePage","Validate Holidays List in tHRM Application","1","0","0","0","0"
+"","","","0","4","1","1","0"
+"","Isha Traings(MFS)","User Register new Merchant and Validate in Home tab","1","0","0","0","0"
+"","Isha Traings(MFS)","Verify Login functionality of MFS","0","0","0","0","1"
+"","Isha Traings(MFS)","User creates new rule and Validate in Rule list","1","0","0","0","0"

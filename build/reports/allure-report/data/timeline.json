@@ -1,0 +1,197 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "STIPL-SMBL0267",
+    "children" : [ {
+      "name" : "13496@STIPL-SMBL0267.TestNG-test=Test-1(17)",
+      "children" : [ {
+        "name" : "Navigate to flipkart homepage",
+        "uid" : "481d4e8d5e4b4c02",
+        "parentUid" : "98a0b47ae4470a5b9ae5352801cb56a8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711352104475,
+          "stop" : 1711352198686,
+          "duration" : 94211
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "98a0b47ae4470a5b9ae5352801cb56a8"
+    }, {
+      "name" : "18168@STIPL-SMBL0267.TestNG-test=Test-1(14)",
+      "children" : [ {
+        "name" : "Validate list of Existing products in flipkart",
+        "uid" : "26b6f485833ef866",
+        "parentUid" : "4bed607793079a181fd20aa207dd1fba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711531375834,
+          "stop" : 1711531389646,
+          "duration" : 13812
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Runs Cucumber Feature",
+        "uid" : "a10b446af4c692ef",
+        "parentUid" : "4bed607793079a181fd20aa207dd1fba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1711531375204,
+          "stop" : 1711531390485,
+          "duration" : 15281
+        },
+        "flaky" : true,
+        "parameters" : [ "FlipKart_HomePage1" ]
+      } ],
+      "uid" : "4bed607793079a181fd20aa207dd1fba"
+    }, {
+      "name" : "27904@STIPL-SMBL0267.TestNG-test=Test-1(14)",
+      "children" : [ {
+        "name" : "Validate Holidays List in tHRM Application",
+        "uid" : "8b78c1c4c6737b3c",
+        "parentUid" : "14261377a4e2ff0c15c097921d4b4af3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1718968103335,
+          "stop" : 1718968205009,
+          "duration" : 101674
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Runs Cucumber Feature",
+        "uid" : "34007bf5b8b80189",
+        "parentUid" : "14261377a4e2ff0c15c097921d4b4af3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1718968101236,
+          "stop" : 1718968209166,
+          "duration" : 107930
+        },
+        "flaky" : true,
+        "parameters" : [ "FlipKart_HomePage" ]
+      } ],
+      "uid" : "14261377a4e2ff0c15c097921d4b4af3"
+    }, {
+      "name" : "23348@STIPL-SMBL0267.TestNG-test=Test-1(17)",
+      "children" : [ {
+        "name" : "Navigate to flipkart homepage",
+        "uid" : "9b140199728e6892",
+        "parentUid" : "45f93a2fd9901092f53deef42bac1b40",
+        "status" : "failed",
+        "time" : {
+          "start" : 1711446910797,
+          "stop" : 1711447093185,
+          "duration" : 182388
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "45f93a2fd9901092f53deef42bac1b40"
+    }, {
+      "name" : "13176@STIPL-SMBL0267.TestNG-test=Test-1(14)",
+      "children" : [ {
+        "name" : "tearDownClass",
+        "uid" : "bdc79e0863e0966c",
+        "parentUid" : "1905573fbf401b45f8ec2275d2c0c7bb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711349289144,
+          "stop" : 1711349289145,
+          "duration" : 1
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "setUpClass",
+        "uid" : "157d6be337c59b51",
+        "parentUid" : "1905573fbf401b45f8ec2275d2c0c7bb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1711349289078,
+          "stop" : 1711349289079,
+          "duration" : 1
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Runs Cucumber Feature",
+        "uid" : "ef0f55236e634c7d",
+        "parentUid" : "1905573fbf401b45f8ec2275d2c0c7bb",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1711349289136,
+          "stop" : 1711349289138,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1905573fbf401b45f8ec2275d2c0c7bb"
+    }, {
+      "name" : "24256@STIPL-SMBL0267.TestNG-test=Test-1(14)",
+      "children" : [ {
+        "name" : "Runs Cucumber Feature",
+        "uid" : "a1e17dfb2f379490",
+        "parentUid" : "67a99ec4c08a9cdadc0b6dc5c3b0d4ce",
+        "status" : "broken",
+        "time" : {
+          "start" : 1712303526662,
+          "stop" : 1712303570271,
+          "duration" : 43609
+        },
+        "flaky" : true,
+        "parameters" : [ "Isha Traings(MFS)" ]
+      }, {
+        "name" : "User creates new rule and Validate in Rule list",
+        "uid" : "10a59822a90b3d14",
+        "parentUid" : "67a99ec4c08a9cdadc0b6dc5c3b0d4ce",
+        "status" : "failed",
+        "time" : {
+          "start" : 1712303527225,
+          "stop" : 1712303570004,
+          "duration" : 42779
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "67a99ec4c08a9cdadc0b6dc5c3b0d4ce"
+    }, {
+      "name" : "5612@STIPL-SMBL0267.TestNG-test=Test-1(17)",
+      "children" : [ {
+        "name" : "User Register new Merchant and Validate in Home tab",
+        "uid" : "94395c33b6caac22",
+        "parentUid" : "7097e6e5eb85a270f4285fe60d3a34c4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1711956357129,
+          "stop" : 1711956391949,
+          "duration" : 34820
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7097e6e5eb85a270f4285fe60d3a34c4"
+    }, {
+      "name" : "26828@STIPL-SMBL0267.TestNG-test=Test-1(14)",
+      "children" : [ {
+        "name" : "Verify Login functionality of MFS",
+        "uid" : "810d1b391543e47d",
+        "parentUid" : "78ee5b91172cd60ab7b3bf7f116856bc",
+        "status" : "unknown",
+        "time" : {
+          "start" : 1711539147248,
+          "stop" : 1711539147272,
+          "duration" : 24
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "78ee5b91172cd60ab7b3bf7f116856bc"
+    } ],
+    "uid" : "37825c064d736081dc16417fdc059702"
+  } ]
+}

@@ -1,0 +1,109 @@
+{
+  "uid" : "26b6f485833ef866",
+  "name" : "Validate list of Existing products in flipkart",
+  "historyId" : "1ef28aee3378bf60bb8c9cf218e1890a",
+  "time" : {
+    "start" : 1711531375834,
+    "stop" : 1711531389646,
+    "duration" : 13812
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "TestRunner.startScenario(Scenario)",
+      "time" : {
+        "start" : 1711531375841,
+        "stop" : 1711531375842,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Given  User launches the Flipkart application",
+      "time" : {
+        "start" : 1711531375844,
+        "stop" : 1711531388049,
+        "duration" : 12205
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "TestRunner.endScenario(Scenario)",
+      "time" : {
+        "start" : 1711531389645,
+        "stop" : 1711531389645,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "FlipKart_HomePage1"
+  }, {
+    "name" : "story",
+    "value" : "Validate list of Existing products in flipkart"
+  }, {
+    "name" : "tag",
+    "value" : "Smoke46747353"
+  }, {
+    "name" : "host",
+    "value" : "STIPL-SMBL0267"
+  }, {
+    "name" : "package",
+    "value" : "FlipKart_HomePage1"
+  }, {
+    "name" : "suite",
+    "value" : "FlipKart_HomePage1"
+  }, {
+    "name" : "testClass",
+    "value" : "Validate list of Existing products in flipkart"
+  }, {
+    "name" : "thread",
+    "value" : "18168@STIPL-SMBL0267.TestNG-test=Test-1(14)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "Smoke46747353" ]
+  },
+  "source" : "26b6f485833ef866.json",
+  "parameterValues" : [ ]
+}

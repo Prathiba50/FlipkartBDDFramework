@@ -1,0 +1,258 @@
+{
+  "270cb7eecdfc9d99bd15d0793a3e23ad" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9b140199728e6892",
+      "status" : "failed",
+      "statusDetails" : "fetchAllProductsAndPrices",
+      "time" : {
+        "start" : 1711446910797,
+        "stop" : 1711447093185,
+        "duration" : 182388
+      }
+    } ]
+  },
+  "d8f48eee43f1acbf85b95b61de8dafba" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "34007bf5b8b80189",
+      "status" : "broken",
+      "statusDetails" : "java.lang.AssertionError: Application is down or username is not displayed expected [false] but found [true]",
+      "time" : {
+        "start" : 1718968101236,
+        "stop" : 1718968209166,
+        "duration" : 107930
+      }
+    } ]
+  },
+  "d3ce3f07217585218761cb78cfd72038" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "10a59822a90b3d14",
+      "status" : "failed",
+      "statusDetails" : "createRule",
+      "time" : {
+        "start" : 1712303527225,
+        "stop" : 1712303570004,
+        "duration" : 42779
+      }
+    } ]
+  },
+  "bb7ae0394f9f4771e2e5b74d51c3b648" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ef0f55236e634c7d",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1711349289136,
+        "stop" : 1711349289138,
+        "duration" : 2
+      }
+    } ]
+  },
+  "1531b7c39a1aaa1ba3d8f82cbb46a32b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a10b446af4c692ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1711531375204,
+        "stop" : 1711531390485,
+        "duration" : 15281
+      }
+    } ]
+  },
+  "94384af370096273f913f310af70ee82" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a1e17dfb2f379490",
+      "status" : "broken",
+      "statusDetails" : "java.lang.AssertionError: createRule",
+      "time" : {
+        "start" : 1712303526662,
+        "stop" : 1712303570271,
+        "duration" : 43609
+      }
+    } ]
+  },
+  "13765710ee45192817cdeaf387c1f824" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "94395c33b6caac22",
+      "status" : "failed",
+      "statusDetails" : "Unable to Click on Element- Validate",
+      "time" : {
+        "start" : 1711956357129,
+        "stop" : 1711956391949,
+        "duration" : 34820
+      }
+    } ]
+  },
+  "bb7606c10c1664f7933285a7fd6431a6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "157d6be337c59b51",
+      "status" : "broken",
+      "statusDetails" : "cucumber.runtime.CucumberException: Glue class class tests.FlipHome and class tests.Hrm both attempt to configure the spring context. Please ensure only one glue class configures the spring context",
+      "time" : {
+        "start" : 1711349289078,
+        "stop" : 1711349289079,
+        "duration" : 1
+      }
+    } ]
+  },
+  "d078d80af23b0b186970f45c9ae5c19c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8b78c1c4c6737b3c",
+      "status" : "failed",
+      "statusDetails" : "Application is down or username is not displayed expected [false] but found [true]",
+      "time" : {
+        "start" : 1718968103335,
+        "stop" : 1718968205009,
+        "duration" : 101674
+      }
+    } ]
+  },
+  "31301f566e90b2e2e65d07a81e5fb643" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 1,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "810d1b391543e47d",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1711539147248,
+        "stop" : 1711539147272,
+        "duration" : 24
+      }
+    } ]
+  },
+  "eff67a70cecfe723c366cbfa32eecba6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bdc79e0863e0966c",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1711349289144,
+        "stop" : 1711349289145,
+        "duration" : 1
+      }
+    } ]
+  },
+  "76130bbcc97792b5e51545cfdaf9d863" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "481d4e8d5e4b4c02",
+      "status" : "passed",
+      "time" : {
+        "start" : 1711352104475,
+        "stop" : 1711352198686,
+        "duration" : 94211
+      }
+    } ]
+  },
+  "1ef28aee3378bf60bb8c9cf218e1890a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "26b6f485833ef866",
+      "status" : "passed",
+      "time" : {
+        "start" : 1711531375834,
+        "stop" : 1711531389646,
+        "duration" : 13812
+      }
+    } ]
+  }
+}
